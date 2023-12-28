@@ -1,0 +1,64 @@
+/*=============== BREAKPOINTS ===============*/
+
+/* For small devices */
+
+@media screen and (max-width: 320px){
+  
+    .nav__menu {
+      padding-inline: 2rem;
+    }
+
+}
+
+
+@media screen and (min-width: 576px){
+  
+    .nav__menu {
+      width: 380px;
+      margin-inline: auto;
+    }
+
+}
+
+
+/* For large devices */
+
+@media screen and (min-width: 1150px){
+
+    .nav {
+      height: calc(var(--header-height) + 1rem);
+      column-gap: 4rem;
+    }
+  
+    .nav__link i {
+      display: none;
+    }
+  
+    .nav__link span {
+      display: block;
+    }
+  
+    .nav__menu {
+      width: initial;
+      margin-inline: auto 0;
+    }
+  
+    .nav__list {
+      column-gap: 4rem;
+    }
+  
+    .nav__link {
+      font-weight: var(--font-medium);
+    }
+
+}
+
+@media screen and (min-width: 1220px) {
+    
+    .container {
+      margin-inline: auto;
+    }
+  
+}
+  
+
